@@ -1,4 +1,7 @@
+/* font-family:cursive; */
 *{
+    /* font-family: 'Fasthand', cursive; */
+    font-family: 'Poppins', sans-serif;
     padding: 0px;
     margin: 0px;
     scroll-behavior: smooth;
@@ -10,7 +13,7 @@ body{
 .navbar{
     display: flex;
     height: 70px;
-    width: 100%;
+    width: 100vw;
     background: white;
     box-shadow: 0px 5px 10px 0px #3ab34a;
     position: fixed;
@@ -38,28 +41,31 @@ body{
     font-size: 20px;
     font-weight:bold;
     /* border: 2px solid black; */
-    border-radius: 10px;
-    padding: 5px;
 }
 .navbar ul li a{
+    border-radius: 10px;
+    padding: 5px;
     color: #067c16;
     text-decoration: none;
 }
-.navbar ul li a :hover{
+.navbar ul li a:hover{
     color: white;
-    background-color: #3ab34a;
+    background-color: #3ab34a; 
 }
-.navbar ul li:hover{
+/* .navbar ul li:hover{
     background-color: #3ab34a;
     cursor: pointer;
     color: white;
-}
+} */
 .hero{
     display: flex;
     flex-direction: column;
+    /* font-family: 'Fasthand', cursive; */
 }
 .main{
+    /* background-image: url(https://media.istockphoto.com/id/519134010/photo/scrap-metal.jpg?s=1024x1024&w=is&k=20&c=otoSxaVt0d-AxXTvxr5V4nhLy335zFI9ls7W56zeB_Q=); */
     /* background-color: rgb(218, 220, 222); */
+    /* background: linear-gradient(); */
     margin-top: 3rem;
     display: flex;
     align-items: center;
@@ -143,6 +149,7 @@ body{
 }
 .main .main-2 .form button{
     margin: 30px 2px 20px 0px;
+    padding: 5px;
     border-radius: 7px;
     border-color: #3ab34a;
     border-style: none;
@@ -245,8 +252,8 @@ body{
     border-radius: 8px;
 }
 .why-us .box-2 .box img{
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .why-us .box-2 .box .inside{
     display: flex;
@@ -258,7 +265,10 @@ body{
 }
 .why-us .box-2 .box .inside h3{
     margin: 0px 0px 8px 0px;
-    font-size: 20px;
+    font-size: 18px;
+}
+.why-us .box-2 .box .inside p{
+    font-size: 14px;
 }
 
 .outer{
@@ -352,7 +362,7 @@ body{
 }
 .testimonials .boxes .box .content{
     /* text-align: center; */
-    font-size: 16px;
+    font-size: 13px;
     padding: 0px 1rem 5rem 1rem;
 }
 
@@ -406,7 +416,7 @@ body{
 
 /* ---------rates's page-------- */
 .notes{
-    background-color: #f6f6f6;
+    /* background-color: #f6f6f6; */
 }
 .notes .note{
     margin: 8rem 2rem 3rem 2rem;
@@ -416,7 +426,7 @@ body{
     font-size: 17px;
 }
 .rates{
-    /* border: 2px solid red; */
+    
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -466,7 +476,8 @@ body{
     margin-bottom: 5px;
 }
 .cards .boxes p{
-    font-size: 20px;
+    padding: 1px;
+    font-size: 15px;
     color: #067c16;
 }
 .cards .boxes .content{
