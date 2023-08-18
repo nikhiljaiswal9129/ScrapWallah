@@ -12,6 +12,7 @@ body{
 }
 .navbar{
     display: flex;
+    /* border: 2px solid red; */
     height: 70px;
     width: 100vw;
     background: white;
@@ -99,11 +100,11 @@ body{
     font-size: 20px;
     margin: 5px;
 }
-/* .main .main-1 img{
+.main .main-1 img{
     margin-bottom: 35px;
-    /* height: 200px; */
-    /* width: 200px; */
-/* }  */
+    height: 40vh;
+    width: 30vw;
+}
 .main .main-2{
     height: fit-content;
     width: 50%;
@@ -316,6 +317,7 @@ body{
 }
 
 .testimonials{
+    padding-bottom: 1.8rem;
     display: flex;
     flex-direction: column;
     /* border: 2px solid black; */
@@ -363,6 +365,7 @@ body{
 .testimonials .boxes .box .content{
     /* text-align: center; */
     font-size: 13px;
+    font-style: italic;
     padding: 0px 1rem 5rem 1rem;
 }
 
@@ -419,7 +422,7 @@ body{
     /* background-color: #f6f6f6; */
 }
 .notes .note{
-    margin: 8rem 2rem 3rem 2rem;
+    margin: 8rem 1rem 3rem 1rem;
     background-color: #cce5ff;
     color: #004085;
     padding: 2rem;
